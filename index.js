@@ -49,7 +49,7 @@ const bookStoreTitle = document.getElementById("header");
 
 bookStoreTitle.textContent = bookStore.name;
 
-const bookList = document.getElementById("bookList");
+const bookList = document.getElementById("book-list");
 
 
 bookStore.books.forEach((book) => {
